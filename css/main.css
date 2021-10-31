@@ -1,0 +1,320 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.none {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mainBgColor {
+    background-color: #F7F9FE;
+}
+
+.mainTextColor {
+    color: #50658E;
+}
+
+.secTextColor {
+    color: #394B6C;
+}
+
+
+/*home*/
+
+#GoToHome {
+    background-color: #1468CD;
+    color: white;
+    position: fixed;
+    z-index: 5555;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+}
+
+#GoToHome i {
+    font-size: 25px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/*Navbar*/
+
+#home {
+    background-image: url(../img/shape-a.png);
+    background-size: cover;
+}
+
+#home .navbar {
+    z-index: 555;
+    background: transparent;
+}
+
+#home .navbar .pages ul li a {
+    color: grey;
+    text-decoration-line: none;
+    transition: all 0.3s;
+}
+
+#home .navbar .pages ul li a:hover {
+    color: #1468CD;
+}
+
+#home .navbar .fa-bars {
+    font-size: 25px;
+    color: #394B6C;
+}
+
+#home .navbar .fa-bars {
+    font-size: 25px;
+    color: #394B6C;
+    transition: all 0.3s;
+}
+
+#home .navbar .fa-bars:hover {
+    color: #1468CD;
+    cursor: pointer;
+}
+
+#home .navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+
+.fa-virus {
+    font-size: 33px;
+    color: #ff5363;
+}
+
+#home .navbar .pages {
+    float: right;
+}
+
+#home .navbar .pages ul li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#home .navbar .pages ul li a {
+    color: grey;
+}
+
+
+/*resposive navBar*/
+
+#home .resNav {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 5555;
+}
+
+#home .resNav .lSide {
+    background-color: white;
+    height: 100vh;
+}
+
+#home .resNav .rSide {
+    background-color: rgba(0, 105, 217, 0.5);
+    height: 100vh;
+}
+
+#home .resNav .resPages {
+    margin-top: 50px;
+}
+
+#home .resNav .lSide .resPages ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+#home .resNav .lSide .resPages ul li a {
+    color: grey;
+    text-decoration-line: none;
+    transition: all 0.3s;
+}
+
+#home .resNav .lSide .resPages ul li a:hover {
+    color: grey;
+    text-decoration-line: none;
+    color: #1468CD;
+}
+
+#home .resNav .rSide #closeID {
+    font-size: 35px;
+}
+
+#home .resNav .rSide #closeID:hover {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+/*home screen*/
+
+#home .homeScreen {
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#home .homeScreen .leftSideOfHome .corona {
+    font-size: 80px;
+    color: #4B6691;
+    margin: 0px;
+}
+
+#home .homeScreen .leftSideOfHome span h3 {
+    font-size: 30px;
+    color: #ff5363;
+}
+
+#home .homeScreen .leftSideOfHome span h2 {
+    font-size: 40px;
+    color: #4B6691;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home .homeScreen .leftSideOfHome h6 {
+    color: gray;
+}
+
+#home .homeScreen .leftSideOfHome h4 {
+    color: #4B6691;
+}
+
+
+/*HOW CORONAVIRUS IS SPREAD*/
+
+#howConronavirusIsSpread {
+    background-color: #F7F9FE;
+}
+
+#howConronavirusIsSpread h1 {
+    color: #50658E;
+}
+
+#howConronavirusIsSpread .transmission img {
+    border-bottom: rgba(0, 105, 217, 0.5) solid 5px;
+}
+
+#howConronavirusIsSpread .transmission .haveAQue i {
+    font-size: 25px;
+}
+
+
+/*WHAT ARE THE SYMPTOMS OF COVID-19 */
+
+#whatAreTheSymptomsOfCovid .card {
+    position: relative;
+}
+
+#whatAreTheSymptomsOfCovid .card .cImage {
+    width: 80px;
+    position: absolute;
+    right: 20px;
+    top: -30px;
+}
+
+#whatAreTheSymptomsOfCovid .fa-exclamation-triangle {
+    font-size: 40px;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+/*HOW TO PROTECT YOURSELF*/
+
+#howToProtectYourSelf {
+    background-color: #F7F9FE;
+}
+
+
+/*  Follow steps to wash hands*/
+
+#followStepsToWashHands {
+    background-color: #F7F9FE;
+}
+
+
+/*Symptoms*/
+
+#BECAREFULLSTAYSAFE {
+    background-color: #2766BB;
+    background-image: url(../img/shape-a.png);
+    background-size: cover;
+}
+
+#BECAREFULLSTAYSAFE .selfCare {
+    background-color: rgba(27, 71, 161, 0.6);
+}
+
+
+/*DO,Donts*/
+
+#DoDonts {
+    background-color: #F7F9FE;
+}
+
+#DoDonts .imgCon {
+    position: relative;
+}
+
+#DoDonts .imgCon .fa-times-circle {
+    font-size: 22px;
+    position: absolute;
+    z-index: 22;
+    left: 10px;
+}
+
+#DoDonts .imgCon .fa-check-circle {
+    font-size: 22px;
+    position: absolute;
+    z-index: 22;
+    right: 10px;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #151C2E;
+    background-image: url(../img/shape-a.png);
+}
+
+footer i {
+    font-size: 25px;
+}
+
+footer .hr {
+    height: 1px;
+    background-color: rgb(73, 72, 72);
+}
+
+footer .quickLink a {
+    display: block;
+    color: #4B6691;
+    text-decoration-line: none;
+}
+
+@media(max-width:975px) {
+    #home .navbar .pages {
+        display: none;
+    }
+    #home .navbar .fa-bars {
+        display: inline-block;
+    }
+}
